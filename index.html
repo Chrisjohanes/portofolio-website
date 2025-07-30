@@ -1,55 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>portfolio website</title>
-  <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile Website</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <div class="header-container"></div>
-    <img src="images/Logo.png" alt="RevoU Logo" class="logo" />
+    <img src="images/logo.png" alt="Company Logo" class="logo">
     <h1>Hi Name, Welcome to Our Company</h1>
   </header>
 
-  <section id="about">
+  <section class="about">
     <h2>About the Company</h2>
     <p>We are committed to delivering excellence through technology and innovation.</p>
   </section>
 
-  <section id="vision-mission">
+  <section class="vision">
     <h2>Vision and Mission</h2>
     <p>Our vision is to revolutionize digital experiences. Our mission is to empower businesses with smart solutions.</p>
   </section>
 
-  <section id="profile">
-    <h2>Our Profile</h2>
+  <section class="profile">
+    <h2>Your Profile</h2>
     <p>Explore our services, team, and culture through this portfolio.</p>
   </section>
 
-  <section id="contact">
+  <section class="contact-form">
     <h2>Message Us</h2>
-    <form id="contactForm">
+    <form id="messageForm">
       <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
+      <input type="text" id="name" required>
 
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
+      <input type="email" id="email" required>
 
       <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required />
+      <input type="tel" id="phone" required>
 
       <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
+      <textarea id="message" required></textarea>
 
       <button type="submit">Submit</button>
     </form>
-
-    <div id="formOutput" class="hidden"></div>
   </section>
 
-  <script src="JS/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
-

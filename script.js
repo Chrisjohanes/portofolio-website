@@ -38,3 +38,4 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   // Reset form
   document.getElementById("contactForm").reset();
 });
+

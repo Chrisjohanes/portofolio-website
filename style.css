@@ -51,3 +51,14 @@ button:hover {
   background-color: #e7ffe7;
   border: 1px solid #90ee90;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 50px;
+}
+
